@@ -1,0 +1,30 @@
+#table{
+    display:table;
+    background-color: black;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+.row{
+    display: table-row;
+}
+
+.pixel{
+    display: table-cell;
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    height:40px;
+    width:40px;
+}
+
+.color{
+    display: inline-block;
+    height:40px;
+    width:40px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+}
